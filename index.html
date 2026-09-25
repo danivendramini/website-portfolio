@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of illustration work by Dani Vendramini." />
+    <title>Dani Vendramini — Illustrator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="wordmark" href="#top" aria-label="Dani Vendramini home">
+          <span class="wordmark-mark">✳</span>
+          <span>Dani Vendramini</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span data-i18n="menu">Menu</span>
+          <span class="menu-icon" aria-hidden="true"><i></i><i></i></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+          <a href="#work" data-i18n="navWork">Work</a>
+          <a href="#about" data-i18n="navAbout">About</a>
+          <a href="#contact" data-i18n="navContact">Contact</a>
+        </nav>
+        <div class="language-switcher" role="group" aria-label="Choose language">
+          <button class="language-button is-active" type="button" data-language="en" aria-label="English" aria-pressed="true">🇬🇧</button>
+          <button class="language-button" type="button" data-language="es" aria-label="Español" aria-pressed="false">🇪🇸</button>
+          <button class="language-button" type="button" data-language="pt" aria-label="Português do Brasil" aria-pressed="false">🇧🇷</button>
+        </div>
+      </header>
+
+      <main id="top">
+        <section class="hero section-grid" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow" data-i18n="heroEyebrow">Illustrator / image-maker</p>
+            <h1 id="hero-title" data-i18n-html="heroTitle">Illustration for stories<br />worth <em>getting lost in.</em></h1>
+            <p class="hero-intro" data-i18n="heroIntro">I create charismatic and curious images for books, publishers, and people with stories to tell.</p>
+            <a class="text-link" href="#work" data-i18n-html="exploreWork">Explore selected work <span>↘</span></a>
+          </div>
+          <div class="hero-art art-frame art-frame--hero hero-carousel" aria-label="Project artwork carousel">
+            <img class="carousel-slide is-active" src="carousel/night.jpg" alt="Night illustration" />
+            <img class="carousel-slide" src="carousel/layover.jpg" alt="Layover illustration" />
+            <img class="carousel-slide" src="carousel/sunnyday1.jpg" alt="Sunny day illustration" />
+            <img class="carousel-slide" src="carousel/swampcharacters.jpg" alt="Swamp characters illustration" />
+            <img class="carousel-slide" src="carousel/swamphouse.jpg" alt="Swamp house illustration" />
+            <div class="carousel-controls">
+              <button class="carousel-button" type="button" data-carousel-direction="previous" aria-label="Show previous project">←</button>
+              <span class="carousel-count" aria-live="polite">1 / 5</span>
+              <button class="carousel-button" type="button" data-carousel-direction="next" aria-label="Show next project">→</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="work-section" id="work" aria-labelledby="work-title">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow" data-i18n="workEyebrow">Selected projects</p>
+              <h2 id="work-title" data-i18n-html="workTitle">A few things<br /><em>I’ve made.</em></h2>
+            </div>
+            <p class="section-note" data-i18n="workNote">A selection of editorial, publishing, and personal illustration.</p>
+          </div>
+
+          <div class="project-grid">
+            <a class="project-card" href="projectwork/night.jpg" data-lightbox-image aria-label="Open larger image: Night">
+              <div class="project-art art-frame"><img src="projectwork/thumbnails/night.jpg" alt="Night illustration" loading="lazy" /></div>
+              <div class="project-meta"><div><h3>Night</h3><p data-i18n="illustration">Illustration</p></div><span class="project-arrow">↗</span></div>
+            </a>
+            <a class="project-card" href="projectwork/layover.jpg" data-lightbox-image aria-label="Open larger image: Layover">
+              <div class="project-art art-frame"><img src="projectwork/thumbnails/layover.jpg" alt="Layover illustration" loading="lazy" /></div>
+              <div class="project-meta"><div><h3>Layover</h3><p data-i18n="illustration">Illustration</p></div><span class="project-arrow">↗</span></div>
+            </a>
+            <a class="project-card" href="projectwork/sunnyday1.jpg" data-lightbox-image aria-label="Open larger image: Sunny day">
+              <div class="project-art art-frame"><img src="projectwork/thumbnails/sunnyday1.jpg" alt="Sunny day illustration" loading="lazy" /></div>
+              <div class="project-meta"><div><h3>Sunny Day</h3><p data-i18n="illustration">Illustration</p></div><span class="project-arrow">↗</span></div>
+            </a>
+            <a class="project-card" href="projectwork/swampcharacters.jpg" data-lightbox-image aria-label="Open larger image: Swamp characters">
+              <div class="project-art art-frame"><img src="projectwork/thumbnails/swampcharacters.jpg" alt="Swamp characters illustration" loading="lazy" /></div>
+              <div class="project-meta"><div><h3>Swamp Characters</h3><p data-i18n="illustration">Illustration</p></div><span class="project-arrow">↗</span></div>
+            </a>
+            <a class="project-card" href="projectwork/swamphouse.jpg" data-lightbox-image aria-label="Open larger image: Swamp house">
+              <div class="project-art art-frame"><img src="projectwork/thumbnails/swamphouse.jpg" alt="Swamp house illustration" loading="lazy" /></div>
+              <div class="project-meta"><div><h3>Swamp House</h3><p data-i18n="illustration">Illustration</p></div><span class="project-arrow">↗</span></div>
+            </a>
+            <a class="project-card" href="projectwork/swamppage1.jpg" data-lightbox-image aria-label="Open larger image: Swamp page one">
+              <div class="project-art art-frame"><img src="projectwork/thumbnails/swamppage1.jpg" alt="Swamp illustration, page one" loading="lazy" /></div>
+              <div class="project-meta"><div><h3>Swamp — Page One</h3><p data-i18n="illustration">Illustration</p></div><span class="project-arrow">↗</span></div>
+            </a>
+            <a class="project-card" href="projectwork/swamppage2.jpg" data-lightbox-image aria-label="Open larger image: Swamp page two">
+              <div class="project-art art-frame"><img src="projectwork/thumbnails/swamppage2.jpg" alt="Swamp illustration, page two" loading="lazy" /></div>
+              <div class="project-meta"><div><h3>Swamp — Page Two</h3><p data-i18n="illustration">Illustration</p></div><span class="project-arrow">↗</span></div>
+            </a>
+            <a class="project-card" href="projectwork/swamppage3.jpg" data-lightbox-image aria-label="Open larger image: Swamp page three">
+              <div class="project-art art-frame"><img src="projectwork/thumbnails/swamppage3.jpg" alt="Swamppage three illustration" loading="lazy" /></div>
+              <div class="project-meta"><div><h3>Swamp — Page Three</h3><p data-i18n="illustration">Illustration</p></div><span class="project-arrow">↗</span></div>
+            </a>
+          </div>
+        </section>
+
+        <section class="about-section section-grid" id="about" aria-labelledby="about-title">
+          <div class="about-portrait art-frame">
+            <img src="eu.jpg" alt="Portrait of Dani Vendramini" />
+          </div>
+          <div class="about-copy"><p class="eyebrow" data-i18n="aboutEyebrow">Hi, I’m Dani Vendramini</p><h2 id="about-title" data-i18n-html="aboutTitle">Images with<br /><em>a point of view.</em></h2><p data-i18n="aboutFirst">Hi, I’m Dani Vendramini, an illustrator based in São Paulo, Brazil and available worldwide. I create illustrations for children’s and young readers’ books, including picture books, covers, chapter headings, spreads, spot illustrations, and vignettes.</p><p data-i18n="aboutSecond">My work combines traditional and digital techniques, using watercolor, gouache, pencils, pens, crayons, and handmade wood-stamp textures to create illustrations with a tactile, playful quality.</p><p data-i18n="aboutThird">I’m especially drawn to characters—their personalities, little details, and the stories they can tell without words. My goal is to create images that feel warm and relatable, giving young readers a chance to recognize themselves and their world in the stories they encounter. I’m always excited to collaborate on stories that have something to say.</p><a class="text-link" href="#contact" data-i18n-html="moreAbout">More about me <span>↘</span></a></div>
+        </section>
+
+        <section class="contact-section" id="contact" aria-labelledby="contact-title">
+          <p class="eyebrow" data-i18n="contactEyebrow">Have a good idea?</p><h2 id="contact-title" data-i18n-html="contactTitle">Let’s make<br /><em>something</em> together.</h2><a class="contact-email" href="mailto:cvldaniela@gmail.com">cvldaniela@gmail.com <span>↗</span></a>
+          <div class="contact-footer"><p data-i18n="contactFooter">Available worldwide.</p><div class="social-links"><a href="https://www.instagram.com/danivmini/" target="_blank" rel="noreferrer">Instagram</a><a href="https://www.behance.net/danivmini" target="_blank" rel="noreferrer">Behance</a><a href="https://www.linkedin.com/in/dani-vendramini/" target="_blank" rel="noreferrer">LinkedIn</a></div></div>
+        </section>
+      </main>
+
+      <footer class="site-footer"><span>© <span id="year"></span> Dani Vendramini</span><span data-i18n="footerTagline">Illustrations &amp; good things</span><a href="#top" data-i18n="backToTop">Back to top ↑</a></footer>
+    </div>
+    <div class="lightbox" id="image-lightbox" role="dialog" aria-modal="true" aria-label="Expanded artwork" hidden>
+      <button class="lightbox-close" type="button" aria-label="Close expanded image">×</button>
+      <img class="lightbox-image" src="" alt="" />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
