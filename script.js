@@ -65,7 +65,7 @@ const translations = {
     statementCopy: 'Mundos visuais brincalhões, detalhes cuidadosos e um carinho especial pelo inesperado.',
     workEyebrow: 'Projetos selecionados', workTitle: 'Algumas coisas<br /><em>que eu fiz.</em>',
     workNote: 'Uma seleção de ilustrações editoriais, publicações e trabalhos pessoais.', illustration: 'Ilustração',
-    aboutEyebrow: 'Olá, eu sou Dani Vendramini', aboutTitle: 'Imagens com<br /><em>um ponto de vista.</em>',
+    aboutEyebrow: 'Olá, eu sou Dani Vendramini', aboutTitle: 'Sobre<br /><em>mim</em>',
     aboutFirst: 'Olá, eu sou Dani Vendramini, uma ilustradora de São Paulo, Brasil, disponível para trabalhar no mundo todo. Crio ilustrações para livros infantis e juvenis, incluindo livros ilustrados, capas, aberturas de capítulos, páginas duplas, ilustrações pontuais e vinhetas.',
     aboutSecond: 'Meu trabalho combina técnicas tradicionais e digitais, usando aquarela, guache, lápis, canetas, giz de cera e texturas feitas à mão com carimbos de madeira para criar ilustrações com uma qualidade tátil e lúdica.',
     aboutThird: 'Sou especialmente atraída por personagens — suas personalidades, pequenos detalhes e as histórias que podem contar sem palavras. Meu objetivo é criar imagens acolhedoras e relacionáveis, dando aos jovens leitores a chance de se reconhecerem e reconhecerem seu mundo nas histórias que encontram. Estou sempre animada para colaborar em histórias que têm algo a dizer.',
